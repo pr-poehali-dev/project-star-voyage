@@ -3,32 +3,32 @@ import { motion } from "framer-motion"
 export function CaseStudiesSection() {
   const caseStudies = [
     {
-      client: "Stellar Analytics",
-      project: "Редизайн лендинга SaaS",
-      metric: "Рост конверсий на 127%",
-      description: "Полный редизайн главного лендинга продукта с A/B-тестированием и оптимизацией конверсий.",
-      image: "/placeholder.svg?height=400&width=600",
+      client: "Новостройка",
+      project: "ЖК «Солнечный»",
+      metric: "Сэкономили 480 000 ₽",
+      description: "Помогли семье купить квартиру в новом ЖК по цене застройщика, одобрили ипотеку под 8,2% и сопроводили сделку под ключ.",
+      image: "https://cdn.poehali.dev/projects/c132f7fc-9db2-483b-ac94-439a8d0266f2/files/730d3153-7d0d-4997-aba5-53b8bd8f5976.jpg",
     },
     {
-      client: "Nova Industries",
-      project: "White-label платформа",
-      metric: "Онбординг в 3 раза быстрее",
-      description: "Создали масштабируемое white-label решение для обслуживания 50+ клиентов одновременно.",
-      image: "/placeholder.svg?height=400&width=600",
+      client: "Вторичный рынок",
+      project: "3-комнатная квартира",
+      metric: "Одобрение за 2 дня",
+      description: "Клиент получил одобрение ипотеки в трёх банках за 48 часов. Выбрали лучшую ставку и закрыли сделку за 2 недели.",
+      image: "https://cdn.poehali.dev/projects/c132f7fc-9db2-483b-ac94-439a8d0266f2/files/35ee30a5-9074-4c8e-971d-bac818582f8e.jpg",
     },
     {
-      client: "Quantum Dynamics",
-      project: "Оптимизация e-commerce",
-      metric: "Рост выручки на 85%",
-      description: "Оптимизировали checkout и внедрили конверсионные паттерны дизайна по всей платформе.",
-      image: "/placeholder.svg?height=400&width=600",
+      client: "Готовый дом",
+      project: "Коттедж в пригороде",
+      metric: "Продали квартиру +15%",
+      description: "Одновременно продали старую квартиру клиента на 15% выше рынка и подобрали загородный дом с полным юридическим сопровождением.",
+      image: "https://cdn.poehali.dev/projects/c132f7fc-9db2-483b-ac94-439a8d0266f2/files/00f6f1d7-61b5-42b5-8684-bb6205c7c3d1.jpg",
     },
     {
-      client: "Alpine Ventures",
-      project: "Перезапуск сайта агентства",
-      metric: "200+ лидов в месяц",
-      description: "Стратегический редизайн для лидогенерации с интеграцией CRM и автоматизацией.",
-      image: "/placeholder.svg?height=400&width=600",
+      client: "Обмен жилья",
+      project: "Семья из 4 человек",
+      metric: "Ключи за 3 недели",
+      description: "Организовали альтернативную сделку: продали двушку, одобрили ипотеку и помогли переехать в просторную новостройку за 21 день.",
+      image: "https://cdn.poehali.dev/projects/c132f7fc-9db2-483b-ac94-439a8d0266f2/files/e14e4c0d-2a8c-4911-b592-e5e5c63d0490.jpg",
     },
   ]
 
@@ -43,7 +43,7 @@ export function CaseStudiesSection() {
             transition={{ duration: 0.8 }}
             className="font-serif text-4xl md:text-5xl font-bold mb-4"
           >
-            Кейсы
+            Реальные сделки
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -52,7 +52,7 @@ export function CaseStudiesSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg text-muted-foreground max-w-2xl mx-auto"
           >
-            Реальные результаты агентств, с которыми мы работали для роста и конверсий.
+            Истории клиентов, которым мы помогли найти и купить жильё на выгодных условиях.
           </motion.p>
         </div>
 
